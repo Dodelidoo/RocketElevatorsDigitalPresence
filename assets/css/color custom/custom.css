@@ -1,0 +1,40 @@
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  max-height: 193px;
+}
+
+.img-fluid gif {
+  max-height: 250px;
+  height: auto;
+
+}
+
+.img-fluid news {
+  max-width: 100%;
+  max-height: 193px;
+
+}
+
+.btn-warning {
+    color: #212529;
+    background-color: #2007ff;
+    border-color: #ff0707;
+  }
+  
+  .btn-warning:hover {
+    color: #212529;
+    background-color: #0029e0;
+    border-color: #3800d3ce;
+
+ }
+
+ .noBorder {
+  border: 0px;
+  padding:0; 
+  margin:0;
+  border-collapse: collapse;
+}
+
+
+

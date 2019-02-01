@@ -1,0 +1,34 @@
+<html>
+   <head>
+
+   </head>
+   <body>
+
+
+
+        <select id="res-app">
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+                <option value="4">Option 4</option>
+                <option value="5">Option 5</option>
+            </select>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script>
+
+
+
+
+
+            $(document).ready(function(){
+                $('#res-app').on('change',function(){
+                    //var optionValue = $(this).val();
+                    //var optionText = $('#dropdownList option[value="'+optionValue+'"]').text();
+                    var optionValue = $("#res-app option:selected").val();
+                    alert("Selected Option Text: "+optionValue);
+                });
+            });
+            </script>
+   </body>
+
+</html>
